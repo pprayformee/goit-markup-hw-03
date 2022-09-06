@@ -18,10 +18,22 @@
 
 ul {
     list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
-* {
+/* * {
     box-sizing: border-box;
+} */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
 }
 
 .page {
@@ -30,7 +42,22 @@ ul {
     font-size: var(--text-size);
 }
 
+.container-header {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.main-nav {
+    display: flex;
+}
+
 .logo {
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 25px;
     color: var(--black-color);
     font-family: var(--secondary-font);
     font-weight: 700;
@@ -43,9 +70,24 @@ ul {
     color: var(--acent-color);
 }
 
+.list {
+    display: flex;
+    margin-left: 92px;
+}
+
 .link {
     text-decoration: none;
     color: currentColor;
+}
+
+.list .item + .item {
+    margin-left: 50px;
+}
+
+.list .link {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .studio {
@@ -75,6 +117,21 @@ ul {
     color: var(--acent-color);
 }
 
+.list1 {
+    display: flex;
+    margin-left: auto;
+}
+
+.list1 .item + .item {
+    margin-left: 50px;
+}
+
+.list1 .link {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
 .mail {
     color: var(--secondary-color);
     font-weight: 500;
@@ -96,16 +153,28 @@ ul {
     text-decoration: none;
 }
 
+.phone:hover,
+.phone:focus {
+    color: var(--acent-color);
+}
+
 .section-1 {
     background-color: var(--header-footer-color);
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 .text-1 {
+    width: 696px;
+    margin-right: auto;
+    margin-left: auto;
     color: var(--white-color);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     text-transform: uppercase;
+    margin-bottom: 40px;
 }
 
 .button {
@@ -118,11 +187,36 @@ ul {
     font-family: inherit;
     line-height: 1.87;
     cursor: pointer;
+    padding: 10px 32px;
 }
 
 .button:hover,
 .button:focus {
     background-color: #188ce8;
+    color: var(--white-color);
+}
+
+.section-2 {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+    padding: 0 15px;
+}
+
+.list2 {
+    display: flex;
+}
+
+.list2 .item {
+    width: 270px;
+}
+
+.list2 .item + .item {
+    margin-left: 30px;
 }
 
 .title {
@@ -135,33 +229,61 @@ ul {
 
 .title-section-2 {
     font-weight: 700;
-    font-size: var(--title-size);
-    line-height: 1.16;
+    font-size: var(--text-size);
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    margin-bottom: 10px;
 }
 
 .text-2 {
     line-height: 1.71;
+    margin-bottom: 0;
+    letter-spacing: 0.03em;
+}
+
+.section-3 {
+    text-align: center;
+    padding-bottom: 94px;
 }
 
 .title-section-3 {
     font-weight: 700;
     font-size: var(--title-size);
     line-height: 1.16;
+    margin-bottom: 50px;
+}
+
+.list3 {
+    display: flex;
+}
+
+.list3 .item .item {
+    margin-left: 30px;
 }
 
 .img {
     width: 370px;
     height: 294px;
+    display: block;
+    margin-right: 30px;
 }
 
 .section-4 {
     background-color: var(--gray-color);
+    text-align: center;
+    padding-bottom: 94px;
+    padding-top: 94px;
 }
 
 .title-section-4 {
     font-weight: 700;
     font-size: var(--title-size);
     line-height: 1.16;
+    margin-bottom: 50px;
+}
+
+.list4 {
+    display: flex;
 }
 
 .li-list4 {
@@ -171,11 +293,21 @@ ul {
     border-radius: 0px 0px 4px 4px;
 }
 
+.list4 .li-list4 + .li-list4 {
+    margin-left: 30px;
+}
+
+.container-title-text {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 .title1 {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
     letter-spacing: 0.03em;
+    margin-bottom: 10px;
 }
 
 .text-3 {
@@ -185,6 +317,8 @@ ul {
 
 .footer {
     background-color: var(--header-footer-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .logo-footer {
@@ -194,6 +328,8 @@ ul {
     font-size: 26px;
     line-height: 1.19;
     text-decoration: none;
+    display: block;
+    margin-bottom: 20px;
 }
 
 .studio-footer {
@@ -202,6 +338,10 @@ ul {
 
 .adress {
     font-style: normal;
+}
+
+.adress-item .item {
+    margin-bottom: 9px;
 }
 
 .map {
