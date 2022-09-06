@@ -1,0 +1,200 @@
+:root {
+    /* text colors */
+    --primary-color: #212121;
+    --secondary-color: #757575;
+    --acent-color: #2196F3;
+    --black-color: #000000;
+    /* background colors */
+    --white-color: #FFFFFF;
+    --header-footer-color: #2F303A;
+    --gray-color: #F5F4FA;
+    /* fonts */
+    --main-font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+    /* sizes */
+    --title-size: 36px;
+    --text-size: 14px;
+}
+
+ul {
+    list-style: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.page {
+    color: var(--primary-color);
+    font-family: var(--main-font);
+    font-size: var(--text-size);
+}
+
+.header {
+    border-bottom: 1px solid #ECECEC;
+}
+
+.logo {
+    color: var(--acent-color);
+    text-decoration: none;
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+}
+
+.studio-logo {
+    color: var(--black-color);
+}
+
+.studio {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: var(--text-size);
+    line-height: 1.14;
+}
+
+.studio:hover,
+.studio:focus {
+    color: var(--acent-color);
+}
+
+.portfolio {
+    color: var(--acent-color);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: var(--text-size);
+    line-height: 1.14;
+}
+
+.portfolio:hover,
+.portfolio:focus {
+    color: var(--acent-color);
+}
+
+.contacts {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: var(--text-size);
+    line-height: 1.14;
+}
+
+.contacts:hover,
+.contacts:focus {
+    color: var(--acent-color);
+}
+
+.mail {
+    color: var(--secondary-color);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: var(--text-size);
+    line-height: 1.14;
+}
+
+.mail:hover,
+.mail:focus {
+    color: var(--acent-color);
+}
+
+.phone {
+    color: var(--secondary-color);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: var(--text-size);
+    line-height: 1.14;
+}
+
+.phone:hover,
+.phone:focus {
+    color: var(--acent-color);
+}
+
+.button {
+    border: none;
+    border-radius: 4px;
+    color: var(--primary-color);
+    background-color: var(--gray-color);
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+    color: var(--white-color);
+    background-color: var(--acent-color);
+}
+
+.container {
+    border: 1px solid #EEEEEE;
+    width: 370px;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.img {
+    width: 370px;
+    height: 294px;
+}
+
+.title {
+    color: var(--primary-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+}
+
+.text {
+    color: var(--secondary-color);
+    font-size: 16px;
+    line-height: 1.87;
+}
+
+.footer {
+    background-color: var(--header-footer-color);
+}
+
+.logo-footer {
+    color: var(--acent-color);
+    text-decoration: none;
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+}
+
+.studio-footer {
+    color: var(--white-color);
+}
+
+.adress {
+    font-style: normal;
+}
+
+.map {
+    color: var(--white-color);
+    text-decoration: none;
+    font-size: var(--text-size);
+    line-height: 1.71;
+}
+
+.mailto {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    font-size: var(--text-size);
+    line-height: 1.71;
+}
+
+.tell {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    font-size: var(--text-size);
+    line-height: 1.71;
+}

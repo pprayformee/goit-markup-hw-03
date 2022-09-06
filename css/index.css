@@ -1,0 +1,229 @@
+:root {
+    /* text colors */
+    --primary-color: #212121;
+    --secondary-color: #757575;
+    --acent-color: #2196F3;
+    --black-color: #000000;
+    /* background colors */
+    --white-color: #FFFFFF;
+    --header-footer-color: #2F303A;
+    --gray-color: #F5F4FA;
+    /* fonts */
+    --main-font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+    /* sizes */
+    --title-size: 36px;
+    --text-size: 14px;
+}
+
+ul {
+    list-style: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.page {
+    color: var(--secondary-color);
+    font-family: var(--main-font);
+    font-size: var(--text-size);
+}
+
+.logo {
+    color: var(--black-color);
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+}
+
+.web {
+    color: var(--acent-color);
+}
+
+.link {
+    text-decoration: none;
+    color: currentColor;
+}
+
+.studio {
+    color: var(--acent-color);
+    font-weight: 500;
+    font-size: var(--text-size);
+    line-height: 1.14;
+    text-decoration: none;
+}
+
+
+.studio:hover,
+.studio:focus{
+    color: #2196F3;
+}
+
+.portfolio-contacts {
+    color: var(--primary-color);
+    font-weight: 500;
+    font-size: var(--text-size);
+    line-height: 1.14;
+    text-decoration: none;
+}
+
+.portfolio-contacts:hover,
+.portfolio-contacts:focus {
+    color: var(--acent-color);
+}
+
+.mail {
+    color: var(--secondary-color);
+    font-weight: 500;
+    font-size: var(--text-size);
+    line-height: 1.14;
+    text-decoration: none;
+}
+
+.mail:hover,
+.mail:focus {
+    color: var(--acent-color);
+}
+
+.phone {
+    color: var(--secondary-color);
+    font-weight: 500;
+    font-size: var(--text-size);
+    line-height: 1.14;
+    text-decoration: none;
+}
+
+.section-1 {
+    background-color: var(--header-footer-color);
+}
+
+.text-1 {
+    color: var(--white-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-transform: uppercase;
+}
+
+.button {
+    background-color: var(--acent-color);
+    border: none;
+    border-radius: 4px;
+    color: var(--white-color);
+    font-weight: 700;
+    font-size: 16px;
+    font-family: inherit;
+    line-height: 1.87;
+    cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+    background-color: #188ce8;
+}
+
+.title {
+    color: var(--primary-color);
+    font-size: var(--text-size);
+    line-height: 16px;
+    letter-spacing: 0.03em;
+
+}
+
+.title-section-2 {
+    font-weight: 700;
+    font-size: var(--title-size);
+    line-height: 1.16;
+}
+
+.text-2 {
+    line-height: 1.71;
+}
+
+.title-section-3 {
+    font-weight: 700;
+    font-size: var(--title-size);
+    line-height: 1.16;
+}
+
+.img {
+    width: 370px;
+    height: 294px;
+}
+
+.section-4 {
+    background-color: var(--gray-color);
+}
+
+.title-section-4 {
+    font-weight: 700;
+    font-size: var(--title-size);
+    line-height: 1.16;
+}
+
+.li-list4 {
+    background-color: var(--white-color);
+    width: 270px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.title1 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+}
+
+.text-3 {
+    font-size: 16px;
+    line-height: 1.18;
+}
+
+.footer {
+    background-color: var(--header-footer-color);
+}
+
+.logo-footer {
+    color: var(--acent-color);
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+}
+
+.studio-footer {
+    color: var(--white-color);
+}
+
+.adress {
+    font-style: normal;
+}
+
+.map {
+    color: var(--white-color);
+    line-height: 1.71;
+    text-decoration: none;
+}
+
+.map:hover,
+.map:focus {
+    color: var(--acent-color);
+}
+
+.mailto-tel {
+    color: rgba(255, 255, 255, 0.6);
+    line-height: 1.71;
+    text-decoration: none;
+}
+
+.mailto-tel:hover,
+.mailto-tel:focus {
+    color: var(--acent-color);
+}
+
+
