@@ -178,10 +178,8 @@ p {
 
 .ul-button {
     display: flex;
-    margin-bottom: 34px;
-    width: 558px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-bottom: 50px;
+    justify-content: center;
 }
 
 .ul-button .item + .item {

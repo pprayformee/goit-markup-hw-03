@@ -255,6 +255,7 @@ p {
 
 .list3 {
     display: flex;
+    gap: 30px;
 }
 
 .list3 .item .item {
@@ -265,7 +266,6 @@ p {
     width: 370px;
     height: 294px;
     display: block;
-    margin-right: 30px;
 }
 
 .section-4 {
